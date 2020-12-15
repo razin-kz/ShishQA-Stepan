@@ -1,0 +1,3176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S2</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>HL_SHISH</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Пользовательский интерфейс</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C6</id>
+				<title>Дизайн конопк</title>
+												<template>Test Case (Text)</template>
+																<type>Usability</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>запустить программу</preconds>
+										<steps>Визуально оценить размеры кнопок</steps>
+										<expected>все кнопки одинакового размера
+
+иконки кнопок в едином стиле</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C16</id>
+				<title>Дизайн кнопок 2</title>
+												<template>Test Case (Steps)</template>
+																<type>Usability</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>запустить программу
+</preconds>
+										<steps_separated><step>
+<index>1</index><content>измерить размеры первой кнопки &quot;Добавление файлов&quot;, с помощью скриншота и линейки в Paint</content><expected>35*27 пкс</expected></step>
+<step>
+<index>2</index><content>Сопоставить размеры остальных кнопок с эжталонным</content><expected>Размер всех кнопок = 35*27 пкс</expected></step>
+<step>
+<index>3</index><content>сравнить ионки изображений на кнопках с библиотекой msadll32.dll</content><expected>изображения совпадают</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C15</id>
+				<title>Контекстные подсказки</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C27</id>
+				<title>Контекстные подсказки кнопок</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Навести мышь на кнопку &quot;Найти и добавить файл в список&quot;</content><expected>Появляется контекстная подсказка &quot;Найти и добавить файл в список&quot;</expected></step>
+<step>
+<index>2</index><content>Навести мышь на кнопку &quot;Удалить выделенные файлы из списка&quot;</content><expected>Появляется контекстная подсказка &quot;Удалить выделенные файлы из списка&quot;</expected></step>
+<step>
+<index>3</index><content>Навести мышь на кнопку &quot;Начать грузить&quot;</content><expected>Появляется контекстная подсказка &quot;Начать грузить&quot;</expected></step>
+<step>
+<index>4</index><content>Навести мышь на поле &quot;Список файлов&quot;</content><expected>Появляется контекстная подсказка &quot;Список файлов&quot;</expected></step>
+<step>
+<index>5</index><content>Навести мышь на поле &quot;Папки куда писать файлы&quot;</content><expected>Появляется контекстная подсказка &quot;Папки куда писать файлы&quot;</expected></step>
+<step>
+<index>6</index><content>Навести мышь на кнопку &quot;Выбора папки куда писать файлы&quot;</content><expected>Появляется контекстная подсказка &quot;Выбрать папку куда писать файлы&quot;</expected></step>
+<step>
+<index>7</index><content>Навести мышь на поле Контекстных подсказок</content><expected>Появляется контекстная подсказка &quot;Поле контекстных подсказок&quot;</expected></step>
+<step>
+<index>8</index><content>Навести мышь на кнопку &quot;Приостановить загрузку&quot;</content><expected>Появляется контекстная подсказка &quot;Приостановить загрузку&quot;</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>Aver HL</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Пользовательский интерфейс</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C1</id>
+				<title>Дизайн кнопок</title>
+												<template>Test Case (Text)</template>
+																<type>Usability</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>запустить программу</preconds>
+										<steps>визуально оценить размеры кнопок</steps>
+										<expected>все кнопки одинакового размера, иконки кнопок в одинаковой стилистике, тень от кнопок у всех одинакова</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C22</id>
+				<title>Дизайн кнопок 2</title>
+												<template>Test Case (Steps)</template>
+																<type>Usability</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Измерить размеры первой кнопки &quot;Добавление файлов&quot; с помощью скриншота и линейки в Paint. </content><expected>35*27 px</expected></step>
+<step>
+<index>2</index><content>Сопоставить размеры остальных кнопок с эталонным</content><expected>Размер всех кнопок 35*27 px</expected></step>
+<step>
+<index>3</index><content>Сравнить иконки изображений на кнопках с библиотекой msadll32.dll</content><expected>изображения совпадают</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C9</id>
+				<title>Контекстная подсказка кнопок</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps_separated><step>
+<index>1</index><content>Навести курсор мышки на кнопку &quot;Поиск&quot;</content><expected>В поле контекстной подсказки появляется надпись &quot;Найти и добавить файл в список&quot;</expected></step>
+<step>
+<index>2</index><content>Навести курсор мышки на кнопку &quot;Удаление&quot;</content><expected>В поле контекстной подсказки появляется надпись &quot;Удалить выделенные файлы из списка&quot;</expected></step>
+<step>
+<index>3</index><content>Навести курсор мышки на кнопку &quot;Запуск&quot;</content><expected>В поле контекстной подсказки появляется надпись &quot;Начать грузить&quot;</expected></step>
+<step>
+<index>4</index><content>Навести курсор мышки на кнопку &quot;Пауза&quot;</content><expected>В поле контекстной подсказки появляется надпись &quot;Поставить на паузу&quot;</expected></step>
+<step>
+<index>5</index><content>Навести курсор мышки на кнопку &quot;Обзор&quot;</content><expected>В поле контекстной подсказки появляется надпись &quot;Выбрать папку для записи файлов&quot;</expected></step>
+<step>
+<index>6</index><content>Навести курсор мышки в поле скролла</content><expected>В поле контекстной подсказки появляется надпись &quot;прокрутка&quot;</expected></step>
+<step>
+<index>7</index><content>Навести курсор мышки в поле &quot;контекстная подсказка&quot;</content><expected>В поле контекстной подсказки появляется надпись &quot;контекстная подсказка&quot;</expected></step>
+<step>
+<index>8</index><content>Навести курсор мышки в поле &quot;файлы&quot;</content><expected>В поле контекстной подсказки появляется надпись &quot;список файлов&quot;</expected></step>
+<step>
+<index>9</index><content>Навести курсор мышки в поле &quot;куда писать файлы&quot;</content><expected>В поле контекстной подсказки появляется надпись &quot;папка куда писать файлы&quot;</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>15+ тестов</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C75</id>
+				<title>Запуск на macos</title>
+												<template>Test Case (Steps)</template>
+																<type>Compatibility</type>
+																<priority>Low</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Скопировать программу на компьютер с системой MacOs</preconds>
+										<steps_separated><step>
+<index>1</index><content>Запустить программу</content><expected>Программа запускается</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C76</id>
+				<title>Локализация</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Осмотреть окно программы</content><expected>Все элементы в окне программы имеют русские названия (кроме названия программы)</expected></step>
+<step>
+<index>2</index><content>Нажать на кнопку выбора файла</content><expected>Все элементы в окне выбора на русском языке</expected></step>
+<step>
+<index>3</index><content>Нажать на кнопку обзор (куда копировать файлы)</content><expected>все элементы открывшегося окна на русском языке</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C150</id>
+				<title>Проверка копирования</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Нажать на кнопку выбора файла</content><expected>открывается окно выбора файлов</expected></step>
+<step>
+<index>2</index><content>выбрать файл</content><expected>выбранный файл подсвечивается
+</expected></step>
+<step>
+<index>3</index><content>нажать &quot;Открыть&quot;</content><expected>В поле файлов появляется выбранный файл</expected></step>
+<step>
+<index>4</index><content>Нажать на кнопку выбора пути назначения, выбрать куда будет копироваться файл, выбрать папку, нажать &quot;ок&quot;</content><expected>в строке пути отображается путь к папке назначения</expected></step>
+<step>
+<index>5</index><content>Поставить флажок в поле флажка у всех файлов</content><expected>Флажок поставлен у всех файлов</expected></step>
+<step>
+<index>6</index><content>Запустить копирование, нажав на кнопку &quot;Начать грузить&quot;</content><expected>Программа выполняет действие копирования</expected></step>
+<step>
+<index>7</index><content>открыть папку откуда копировался файл. Открыть папку, куда копировался файл</content><expected>Выбранный файл существует в обеих папках</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C80</id>
+				<title>копирование 1 файла</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Нажать кнопку выбора файла</content><expected>открывается окно выбора файлов</expected></step>
+<step>
+<index>2</index><content>Выбрать файл</content><expected>выбранный файл подсвечивается</expected></step>
+<step>
+<index>3</index><content>нажать кнопку Открыть</content><expected>В поле файлов появляется выбранный файл</expected></step>
+<step>
+<index>4</index><content>Нажать на кнопку выбора пути назначения. Выбрать путь. Нажать ОК</content><expected>в строке пути отображается путь к папке назначения</expected></step>
+<step>
+<index>5</index><content>Поставить флажок в поле флажка у всех файлов
+
+</content><expected>Флажок поставлен у всех файлов</expected></step>
+<step>
+<index>6</index><content>Нажать на кнопку запуск</content><expected>Программа выполняет копирование</expected></step>
+<step>
+<index>7</index><content>Проверить наличие скопированного файла в папке назначения</content><expected>Выбранный файл скопирован в папку назначения</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C227</id>
+				<title>Копирование двух одинаковых файлов</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Нажать на кнопку выбора файлов</content><expected>открывается окно выбора файлов</expected></step>
+<step>
+<index>2</index><content>Выбрать файл, нажать &quot;Открыть&quot;</content><expected>выбранный файл подсвечивается</expected></step>
+<step>
+<index>3</index><content>Повторить пункты 1 и 2 еще 1 раз</content><expected>в поле файлов отображаются 2 одинаковых файла</expected></step>
+<step>
+<index>4</index><content>Поставить флажок в поле флажка у всех файлов</content><expected>Флажок поставлен у всех файлов</expected></step>
+<step>
+<index>5</index><content>Нажать на кнопку выбора пути назначения, выбрать папку куда копировать</content><expected>в строке пути отображается путь к папке назначения</expected></step>
+<step>
+<index>6</index><content>Нажать на кнопку запуск</content><expected>Программа выполняет копирование</expected></step>
+<step>
+<index>7</index><content>Открыть папку назначения</content><expected>в папку назначения скопированы 2 копии файла</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C82</id>
+				<title>копирование 6 файлов одинакового расширения</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить програму</preconds>
+										<steps_separated><step>
+<index>1</index><content>Нажать на кнопку выбора файлов</content><expected>открывается окно выбора файлов</expected></step>
+<step>
+<index>2</index><content>Выбрать файл c расширением mp3</content><expected>выбранный файл подсвечивается</expected></step>
+<step>
+<index>3</index><content>нажать &quot;Открыть&quot;</content><expected>В поле файлов появляется выбранный файл</expected></step>
+<step>
+<index>4</index><content>Повторить пункты 1 и 2 еще 5 раз с файлами mp3</content><expected>все файлы появляются в поле файлов</expected></step>
+<step>
+<index>5</index><content>Поставить флажок в поле флажка у всех файлов</content><expected>Флажок поставлен у всех файлов</expected></step>
+<step>
+<index>6</index><content>Нажать на кнопку выбора пути назначения, выбрать папку куда копировать</content><expected>в строке пути отображается путь к папке назначения</expected></step>
+<step>
+<index>7</index><content>Нажать на кнопку запуск</content><expected>Программа производит копирование</expected></step>
+<step>
+<index>8</index><content>Открыть в проводнике папку назначения</content><expected>В папку назначения скопировались все файлы</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C83</id>
+				<title>копирование 6 файлов разного расширения</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить програму</preconds>
+										<steps_separated><step>
+<index>1</index><content>Нажать на кнопку выбора файлов</content><expected>открывается окно выбора файлов</expected></step>
+<step>
+<index>2</index><content>Выбрать файл c расширением mp3</content><expected>выбранный файл подсвечивается</expected></step>
+<step>
+<index>3</index><content>нажать &quot;Открыть&quot;</content><expected>В поле файлов появляется выбранный файл</expected></step>
+<step>
+<index>4</index><content>Повторить пункты 1 и 2 еще 5 раз с файлами разных расширений</content><expected>Все файлы отображаются в поле файлов</expected></step>
+<step>
+<index>5</index><content>Поставить флажок в поле флажка у всех файлов</content><expected>Флажок поставлен у всех файлов</expected></step>
+<step>
+<index>6</index><content>Нажать на кнопку выбора пути назначения, выбрать папку куда копировать</content><expected>в строке пути отображается путь к папке назначения</expected></step>
+<step>
+<index>7</index><content>Нажать на кнопку запуск</content><expected>Программа начинает копирование</expected></step>
+<step>
+<index>8</index><content>Открыть папку назначения в проводнике</content><expected>В папку назначения скопировались все файлы</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C84</id>
+				<title>копирование 8 файлов одинакового расширения</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Нажать на кнопку выбора файлов</content><expected>открывается окно выбора файлов</expected></step>
+<step>
+<index>2</index><content>Выбрать файл c расширением mp3</content><expected>выбранный файл подсвечивается</expected></step>
+<step>
+<index>3</index><content>нажать &quot;Открыть&quot;</content><expected>В поле файлов появляется выбранный файл</expected></step>
+<step>
+<index>4</index><content>Повторить пункты 1 и 2 еще 7 раз с файлами mp3</content><expected>все файлы появляются в поле файлов</expected></step>
+<step>
+<index>5</index><content>Поставить флажок в поле флажка у всех файлов
+
+</content><expected>Флажок поставлен у всех файлов
+
+</expected></step>
+<step>
+<index>6</index><content>Нажать на кнопку выбора пути назначения, выбрать папку куда копировать</content><expected>в строке пути отображается путь к папке назначения</expected></step>
+<step>
+<index>7</index><content>Нажать на кнопку Начать грузить</content><expected>Программа производит копирование</expected></step>
+<step>
+<index>8</index><content>Открыть в проводнике папку назначения</content><expected>В папку назначения скопировались все файлы</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C85</id>
+				<title>копирование 8 файлов разного расширения</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Нажать на кнопку выбора файлов
+
+</content><expected>открывается окно выбора файлов</expected></step>
+<step>
+<index>2</index><content>Выбрать файл c расширением mp3</content><expected>выбранный файл подсвечивается</expected></step>
+<step>
+<index>3</index><content>нажать &quot;Открыть&quot;</content><expected>В поле файлов появляется выбранный файл</expected></step>
+<step>
+<index>4</index><content>Повторить пункты 1 и 2 еще 7 раз с файлами разных расширений</content><expected>все файлы появляются в поле файлов</expected></step>
+<step>
+<index>5</index><content>Поставить флажок в поле флажка у всех файлов
+
+</content><expected>Флажок поставлен у всех файлов
+
+</expected></step>
+<step>
+<index>6</index><content>Нажать на кнопку выбора пути назначения, выбрать папку куда копировать
+</content><expected>в строке пути отображается путь к папке назначения</expected></step>
+<step>
+<index>7</index><content>Нажать на кнопку Начать грузить</content><expected>Программа производит копирование</expected></step>
+<step>
+<index>8</index><content>Открыть в проводнике папку назначения</content><expected>В папку назначения скопировались все файлы</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C86</id>
+				<title>копирование файла 1кб</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Нажать на кнопку выбора файлов
+
+</content><expected>открывается окно выбора файлов
+</expected></step>
+<step>
+<index>2</index><content>Выбрать файл размером 1кб</content><expected>	
+выбранный файл подсвечивается</expected></step>
+<step>
+<index>3</index><content>нажать &quot;Открыть&quot;</content><expected>	
+В поле файлов появляется выбранный файл</expected></step>
+<step>
+<index>4</index><content>Нажать на кнопку выбора пути назначения, выбрать папку куда копировать</content><expected>в строке пути отображается путь к папке назначения</expected></step>
+<step>
+<index>5</index><content>Поставить флажок в поле флажка у всех файлов
+
+</content><expected>Флажок поставлен у всех файлов
+
+</expected></step>
+<step>
+<index>6</index><content>Нажать на кнопку Начать грузить</content><expected>Программа производит копирование</expected></step>
+<step>
+<index>7</index><content>Открыть в проводнике папку назначения</content><expected>В папку назначения скопировался файл</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C128</id>
+				<title>Копирование файла 1 мб</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Нажать на кнопку выбора файлов</content><expected>открывается окно выбора файлов</expected></step>
+<step>
+<index>2</index><content>Выбрать файл размером 1мб</content><expected>выбранный файл подсвечивается</expected></step>
+<step>
+<index>3</index><content>нажать &quot;Открыть&quot;</content><expected>В поле файлов появляется выбранный файл</expected></step>
+<step>
+<index>4</index><content>Нажать на кнопку выбора пути назначения, выбрать папку куда копировать</content><expected>в строке пути отображается путь к папке назначения</expected></step>
+<step>
+<index>5</index><content>Поставить флажок в поле флажка у всех файлов
+
+</content><expected>Флажок поставлен у всех файлов
+
+</expected></step>
+<step>
+<index>6</index><content>Нажать на кнопку Начать грузить</content><expected>Программа производит копирование</expected></step>
+<step>
+<index>7</index><content>Открыть в проводнике папку назначения</content><expected>В папку назначения скопировался файл</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C130</id>
+				<title>Копирование файла 100мб</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу
+
+</preconds>
+										<steps_separated><step>
+<index>1</index><content>Нажать на кнопку выбора файлов</content><expected>открывается окно выбора файлов</expected></step>
+<step>
+<index>2</index><content>Выбрать файл размером 100мб</content><expected>выбранный файл подсвечивается</expected></step>
+<step>
+<index>3</index><content>нажать &quot;Открыть&quot;</content><expected>В поле файлов появляется выбранный файл</expected></step>
+<step>
+<index>4</index><content>Нажать на кнопку выбора пути назначения, выбрать папку куда копировать</content><expected>в строке пути отображается путь к папке назначения</expected></step>
+<step>
+<index>5</index><content>Поставить флажок в поле флажка у всех файлов
+
+</content><expected>Флажок поставлен у всех файлов
+
+</expected></step>
+<step>
+<index>6</index><content>Нажать на кнопку Начать грузить</content><expected>Программа производит копирование</expected></step>
+<step>
+<index>7</index><content>Открыть в проводнике папку назначения</content><expected>В папку назначения скопировался файл</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C131</id>
+				<title>копирование файла 1гб</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Нажать на кнопку выбора файлов</content><expected>открывается окно выбора файлов
+
+</expected></step>
+<step>
+<index>2</index><content>Выбрать файл размером 1Гб
+
+</content><expected>выбранный файл подсвечивается
+
+</expected></step>
+<step>
+<index>3</index><content>нажать &quot;Открыть&quot;
+
+</content><expected>В поле файлов появляется выбранный файл
+
+</expected></step>
+<step>
+<index>4</index><content>Нажать на кнопку выбора пути назначения, выбрать папку куда копировать
+
+</content><expected>в строке пути отображается путь к папке назначения
+
+</expected></step>
+<step>
+<index>5</index><content>Поставить флажок в поле флажка у всех файлов
+
+</content><expected>Флажок поставлен у всех файлов
+
+</expected></step>
+<step>
+<index>6</index><content>Нажать на кнопку Начать грузить
+
+</content><expected>Программа производит копирование
+
+</expected></step>
+<step>
+<index>7</index><content>Открыть в проводнике папку назначения
+
+</content><expected>В папку назначения скопировался файл
+
+</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C87</id>
+				<title>копирование с флешки на флешку</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу
+Приготовить 2 флеш-карты</preconds>
+										<steps_separated><step>
+<index>1</index><content>Вставить в разъем USB 2 флеш-карты</content><expected>Флеш-карты появляются в проводнике и готовы к работе</expected></step>
+<step>
+<index>2</index><content>перетащить любой файл на флешку №1</content><expected>Файл скопирован на флеш-карту</expected></step>
+<step>
+<index>3</index><content>Нажать на кнопку выбора файлов</content><expected>открывается окно выбора файлов
+
+</expected></step>
+<step>
+<index>4</index><content>Выбрать файл на флеш-карте №1</content><expected>выбранный файл подсвечивается</expected></step>
+<step>
+<index>5</index><content>нажать &quot;Открыть&quot;
+
+</content><expected>В поле файлов появляется выбранный файл
+
+</expected></step>
+<step>
+<index>6</index><content>Нажать на кнопку выбора пути назначения, выбрать флеш-карту №2 как место для копирования
+
+</content><expected>в строке пути отображается путь к папке назначения
+
+</expected></step>
+<step>
+<index>7</index><content>Поставить флажок в поле флажка у всех файлов
+
+</content><expected>Флажок поставлен у всех файлов
+
+</expected></step>
+<step>
+<index>8</index><content>Нажать на кнопку Начать грузить
+
+</content><expected>Программа производит копирование
+
+</expected></step>
+<step>
+<index>9</index><content>Открыть в проводнике папку назначения
+
+</content><expected>В папку назначения скопировался файл
+
+</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C90</id>
+				<title>копирование с флешки на компьютер</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу
+Приготовить флешку</preconds>
+										<steps_separated><step>
+<index>1</index><content>Вставить в разъем USB флеш-карту</content><expected>Флешка отображается в проводнике и готова к работе</expected></step>
+<step>
+<index>2</index><content>скопировать любой файл на флешку</content><expected>Файл скопирован на флеш-карту</expected></step>
+<step>
+<index>3</index><content>Нажать на кнопку выбора файлов
+
+</content><expected>открывается окно выбора файлов
+
+</expected></step>
+<step>
+<index>4</index><content>Выбрать файл на флеш-карте
+</content><expected>выбранный файл подсвечивается
+
+</expected></step>
+<step>
+<index>5</index><content>нажать &quot;Открыть&quot;</content><expected>В поле файлов появляется выбранный файл
+
+</expected></step>
+<step>
+<index>6</index><content>Нажать на кнопку выбора пути назначения, выбрать папку на компьютере</content><expected>в строке пути отображается путь к папке назначения</expected></step>
+<step>
+<index>7</index><content>Поставить флажок в поле флажка у всех файлов
+
+</content><expected>Флажок поставлен у всех файлов
+
+</expected></step>
+<step>
+<index>8</index><content>Нажать на кнопку Начать грузить</content><expected>Программа производит копирование
+
+</expected></step>
+<step>
+<index>9</index><content>Открыть в проводнике папку назначения
+
+</content><expected>В папку назначения скопировался файл
+
+</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C91</id>
+				<title>копирование с компьютера на флешку</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу
+Приготовить флеш-карту</preconds>
+										<steps_separated><step>
+<index>1</index><content>Вставить в разъем USB флеш-карту</content><expected>Флеш-карта появляется в проводнике и готова к работе</expected></step>
+<step>
+<index>2</index><content>Нажать на кнопку выбора файлов
+
+</content><expected>открывается окно выбора файлов
+
+</expected></step>
+<step>
+<index>3</index><content>Выбрать файл на компьютере
+</content><expected>выбранный файл подсвечивается
+
+</expected></step>
+<step>
+<index>4</index><content>нажать &quot;Открыть&quot;
+
+</content><expected>В поле файлов появляется выбранный файл
+
+</expected></step>
+<step>
+<index>5</index><content>Нажать на кнопку выбора пути назначения, выбрать флеш-карту как место для копирования
+
+</content><expected>в строке пути отображается путь к папке назначения
+
+</expected></step>
+<step>
+<index>6</index><content>Поставить флажок в поле флажка у всех файлов
+
+</content><expected>Флажок поставлен у всех файлов
+
+</expected></step>
+<step>
+<index>7</index><content>Нажать на кнопку Начать грузить
+
+</content><expected>Программа производит копирование
+
+</expected></step>
+<step>
+<index>8</index><content>Открыть в проводнике папку назначения
+
+</content><expected>В папку назначения скопировался файл
+
+</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C96</id>
+				<title>копирование файла с длинным названием</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Нажать на кнопку выбора файлов
+
+</content><expected>открывается окно выбора файлов
+
+</expected></step>
+<step>
+<index>2</index><content>Выбрать файл с названием, состоящим из 218 символов
+
+</content><expected>выбранный файл подсвечивается
+
+</expected></step>
+<step>
+<index>3</index><content>нажать &quot;Открыть&quot;
+
+</content><expected>В поле файлов появляется выбранный файл
+
+</expected></step>
+<step>
+<index>4</index><content>Нажать на кнопку выбора пути назначения, выбрать папку куда копировать
+
+</content><expected>в строке пути отображается путь к папке назначения
+
+</expected></step>
+<step>
+<index>5</index><content>Поставить флажок в поле флажка у всех файлов
+
+</content><expected>Флажок поставлен у всех файлов
+
+</expected></step>
+<step>
+<index>6</index><content>Нажать на кнопку Начать грузить
+
+</content><expected>Программа производит копирование
+
+</expected></step>
+<step>
+<index>7</index><content>Открыть в проводнике папку назначения
+
+</content><expected>В папку назначения скопировался файл
+
+</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C97</id>
+				<title>корректность названий кнопок</title>
+												<template>Test Case (Steps)</template>
+																<type>Usability</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Навести курсор на кнопку с тремя точками в левом верхнем углу</content><expected>В контекстном поле отобразится название кнопки &quot;Обзор&quot;</expected></step>
+<step>
+<index>2</index><content>Навести курсор на кнопку, вторую сверху слева, со значком &quot;крестик&quot; </content><expected>В контекстном поле отобразится название кнопки &quot;Удалить файл(ы)&quot;</expected></step>
+<step>
+<index>3</index><content>Навести курсор на кнопку, посредине сверху , с зеленым значком &quot;play&quot; </content><expected>В контекстном поле отобразится название кнопки &quot;Запуск копирования&quot;</expected></step>
+<step>
+<index>4</index><content>Навести курсор на кнопку, посредине сверху , с серым значком &quot;Пауза&quot; </content><expected>В контекстном поле отобразится название кнопки &quot;Пауза&quot;</expected></step>
+<step>
+<index>5</index><content>Навести курсор на кнопку, снизу справа , с серым значком &quot;троеточие&quot; </content><expected>В контекстном поле отобразится название кнопки &quot;Обзор&quot;</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C111</id>
+				<title>Название программы</title>
+												<template>Test Case (Steps)</template>
+																<type>Usability</type>
+																<priority>Medium</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Осмотреть окно программы</content><expected>Пиктограмма программы находится слевасверху, далее находится название программы, написанное с большой буквы (Hardload)</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C112</id>
+				<title>Проверка на орфографию</title>
+												<template>Test Case (Steps)</template>
+																<type>Usability</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Нажать на кнопку &quot;Найти и добавить файлы в список&quot;</content><expected>Открывается окно обзора</expected></step>
+<step>
+<index>2</index><content>Осмотреть элементы окна</content><expected>Элементы окна не имеют орфографических ошибок</expected></step>
+<step>
+<index>3</index><content>Нажать на кнопку &quot;Выбрать папку, куда писать файлы&quot;</content><expected>Открывается окно обзора</expected></step>
+<step>
+<index>4</index><content>Осмотреть элементы окна</content><expected>Элементы окна не имеют орфографических ошибок</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C107</id>
+				<title>Расширение окна кнопкой</title>
+												<template>Test Case (Steps)</template>
+																<type>Usability</type>
+																<priority>Medium</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Нажать на кнопку &quot;развернуть&quot; окна программы</content><expected>Окно программы растянется до размеров экрана</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C98</id>
+				<title>изменение размера окна</title>
+												<template>Test Case (Steps)</template>
+																<type>Usability</type>
+																<priority>Medium</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Подвести курсор к нижнему правому краю окна программы</content><expected>Вместо курсора появляется значок &quot;стрелчка&quot;</expected></step>
+<step>
+<index>2</index><content>Зажать левую кнопку мыши и потянуть курсор вправо вниз</content><expected>Окно меняет размер</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C108</id>
+				<title>сворачивание окна кнопкой</title>
+												<template>Test Case (Steps)</template>
+																<type>Usability</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Навести курсор на значок &quot;свернуть&quot; в правом верхнем углу</content><expected></expected></step>
+<step>
+<index>2</index><content>Нажать на кнопку &quot;Свернуть&quot;</content><expected>Окно сворачивается</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C102</id>
+				<title>Удаление файла</title>
+												<template>Test Case (Steps)</template>
+																<type>Usability</type>
+																<priority>Medium</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Нажать кнопку выбора файла</content><expected>открывается окно выбора файлов</expected></step>
+<step>
+<index>2</index><content>Выбрать файл</content><expected>выбранный файл подсвечивается
+
+</expected></step>
+<step>
+<index>3</index><content>нажать кнопку Открыть
+
+</content><expected>В поле файлов появляется выбранный файл
+
+</expected></step>
+<step>
+<index>4</index><content>В поле файлов нажать в открытый флажок</content><expected>Во флажке поставится галочка</expected></step>
+<step>
+<index>5</index><content>Нажать на кнопку &quot;удалить выделенные файлы из списка&quot;</content><expected>Выбранный файл удалился</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C103</id>
+				<title>Добавление нескольких файлов</title>
+												<template>Test Case (Steps)</template>
+																<type>Usability</type>
+																<priority>Medium</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Нажать кнопку выбора файла
+
+</content><expected>открывается окно выбора файлов
+
+</expected></step>
+<step>
+<index>2</index><content>Выбрать первый файл
+
+</content><expected>выбранный файл подсвечивается
+
+</expected></step>
+<step>
+<index>3</index><content>С зажатой кнопкой ctrl выбрать второй файл</content><expected>Подсвечиваются оба файла</expected></step>
+<step>
+<index>4</index><content>нажать кнопку Открыть
+
+</content><expected>В поле файлов появляется выбранные файлы
+
+</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>HardLoad N</name>
+		<description>Настя</description>
+										<sections>
+		<section>
+		<name>Пользовательский интерфейс</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C3</id>
+				<title>Дизайн кнопок</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>визуально оценить размер кнопок
+</content><expected>все кноапи одинакового размера, иконки кнопок одной стилистики</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C21</id>
+				<title>Дизайн кнопок 2</title>
+												<template>Test Case (Steps)</template>
+																<type>Usability</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Измерить размеры первой кнопки &quot;добавление файла&quot; с помощью скриншота и линейки Paint</content><expected>35*27 hbrctktq</expected></step>
+<step>
+<index>2</index><content>сопоставить размер остальных кнопок с эталонной</content><expected>размер кнопок идентичен эталонной 35*27</expected></step>
+<step>
+<index>3</index><content>сравнить иконки изображений на кнопках с библиотекой</content><expected>изображения совпадают</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C34</id>
+				<title>Контекстные подсказки кнопок</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Навести мышь на кнопку &quot;Найти и добавить файл в список&quot;</content><expected>Появляется контекстная подсказка &quot;Найти и добавить файл в список&quot;</expected></step>
+<step>
+<index>2</index><content>Навести мышь на кнопку &quot;Удалить выделенные файлы из списка&quot;</content><expected>Появляется контекстная подсказка &quot;Удалить выделенные файлы из списка&quot;</expected></step>
+<step>
+<index>3</index><content>Навести мышь на кнопку &quot;Начать грузить&quot;</content><expected>Появляется контекстная подсказка &quot;Начать грузить&quot;</expected></step>
+<step>
+<index>4</index><content>Навести мышь на поле &quot;Список файлов&quot;</content><expected>Появляется контекстная подсказка &quot;Список файлов&quot;</expected></step>
+<step>
+<index>5</index><content>Навести мышь на поле &quot;Папки куда писать файлы&quot;</content><expected>Появляется контекстная подсказка &quot;Папки куда писать файлы&quot;</expected></step>
+<step>
+<index>6</index><content>Навести мышь на кнопку &quot;Выбора папки куда писать файлы&quot;</content><expected>Появляется контекстная подсказка &quot;Выбрать папку куда писать файлы&quot;</expected></step>
+<step>
+<index>7</index><content>Навести мышь на поле Контекстных подсказок</content><expected>Появляется контекстная подсказка &quot;Поле контекстных подсказок&quot;</expected></step>
+<step>
+<index>8</index><content>Навести мышь на кнопку &quot;Приостановить загрузку&quot;</content><expected>Появляется контекстная подсказка &quot;Приостановить загрузку&quot;</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Дизайн кнопок 2</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Dmitrieva-hardload</name>
+		<description>Hardload test</description>
+										<sections>
+		<section>
+		<name>Пользовательский интерфейс</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C2</id>
+				<title>Дизайн кнопок</title>
+												<template>Test Case (Text)</template>
+																<type>Usability</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>запустить программу</preconds>
+										<steps>визуально оценить размеры кнопок</steps>
+										<expected>кнопки в едином дизайне, соответствующих размеров</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C19</id>
+				<title>Дизайн кнопок 2</title>
+												<template>Test Case (Steps)</template>
+																<type>Usability</type>
+																<priority>Medium</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>измерить размеры 1-ой кнопки &quot;Добавление файлов&quot;, с помощью скриншота и линейки в Paint</content><expected>размер кнопки 35х27 пикселей
+</expected></step>
+<step>
+<index>2</index><content>сопоставить остальные кнопки с эталоном</content><expected>размеры кнопок совпадают с эталоном 35х27</expected></step>
+<step>
+<index>3</index><content>сравнить иконки изображения на кнопках с библиотекой pic32.dll</content><expected>изображение совпадает</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C25</id>
+				<title>Контекстные подсказки</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Навести курсор на кнопку &quot;Добавить файл&quot;</content><expected>В окне с контекстной подсказкой появляется соответствующий текст</expected></step>
+<step>
+<index>2</index><content>Навести курсор на кнопку &quot;Удалить файл&quot;</content><expected>В окне с контекстной подсказкой появляется соответствующий текст</expected></step>
+<step>
+<index>3</index><content>Навести курсор на кнопку &quot;Загрузка&quot;</content><expected>В окне с контекстной подсказкой появляется соответствующий текст</expected></step>
+<step>
+<index>4</index><content>Навести курсор на кнопку &quot;Пауза&quot;</content><expected>В окне с контекстной подсказкой появляется соответствующий текст</expected></step>
+<step>
+<index>5</index><content>Навести курсор на поле Files</content><expected>В окне с контекстной подсказкой появляется соответствующий текст</expected></step>
+<step>
+<index>6</index><content>Навести курсор на окно с контекстовой подсказкой</content><expected>В окне с контекстной подсказкой появляется соответствующий текст</expected></step>
+<step>
+<index>7</index><content>Навести курсор на поле адреса расположения папки </content><expected>В окне с контекстной подсказкой появляется соответствующий текст</expected></step>
+<step>
+<index>8</index><content>Навести курсор на кнопку выбора папки\места загрузки файла</content><expected>В окне с контекстной подсказкой появляется соответствующий текст</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+								</cases>
+								<sections>
+		<section>
+		<name>Функциональное и прочее тестирование</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C69</id>
+				<title>Добавление файлов различных форматов</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запускаем приложение</preconds>
+										<steps_separated><step>
+<index>1</index><content>наводим курсор мыши и нажимаем на кнопку &quot;Добавить файл&quot; - выбираем любой файл формата .txt
+</content><expected>Файл добавляется и появляется в строке файлового поля</expected></step>
+<step>
+<index>2</index><content>наводим курсор мыши и нажимаем на кнопку &quot;Добавить файл&quot; - выбираем любой файл формата .png
+</content><expected>Файл добавляется и появляется в строке файлового поля</expected></step>
+<step>
+<index>3</index><content>наводим курсор мыши и нажимаем на кнопку &quot;Добавить файл&quot; - выбираем любой файл формата .mov
+</content><expected>Файл добавляется и появляется в строке файлового поля</expected></step>
+<step>
+<index>4</index><content>наводим курсор мыши и нажимаем на кнопку &quot;Добавить файл&quot; - выбираем любой файл формата .pdf
+</content><expected>Файл добавляется и появляется в строке файлового поля</expected></step>
+<step>
+<index>5</index><content>наводим курсор мыши и нажимаем на кнопку &quot;Добавить файл&quot; - выбираем любой файл формата .jpg
+</content><expected>Файл добавляется и появляется в строке файлового поля</expected></step>
+<step>
+<index>6</index><content>наводим курсор мыши и нажимаем на кнопку &quot;Добавить файл&quot; - выбираем любой файл формата .mp3</content><expected>Файл добавляется и появляется в строке файлового поля</expected></step>
+<step>
+<index>7</index><content>наводим курсор мыши и нажимаем на кнопку &quot;Добавить файл&quot; - выбираем любой файл формата .doc</content><expected>Файл добавляется и появляется в строке файлового поля</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C99</id>
+				<title>Добавление 0 файлов</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запускаем программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>наводим курсор мыши и нажимаем на кнопку &quot;Добавить файл&quot; 
+</content><expected>открывается окно для выбора файла из нужной директории</expected></step>
+<step>
+<index>2</index><content>не выбираем ни одного файла и нажимаем кнопку &quot;ок&quot; </content><expected>в открытом окне кнопка &quot;добавить\ок&quot; должна быть неактивна</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C138</id>
+				<title>Копирование более одного файла</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>запускаем программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Наводим курсор мыши на кнопку и нажимаем &quot;добавить файл&quot;
+</content><expected>открывается окно для выбора файла из нужной директории</expected></step>
+<step>
+<index>2</index><content>выбираем требуемый файл и жмем кнопку &quot;ок&quot;</content><expected>файл добавлен в файловое поле программы</expected></step>
+<step>
+<index>3</index><content>Наводим курсор мыши на кнопку и нажимаем &quot;добавить файл&quot;</content><expected>открывается окно для выбора файла из нужной директории</expected></step>
+<step>
+<index>4</index><content>выбираем требуемый файл и жмем кнопку &quot;ок&quot;</content><expected>файл добавлен в файловое поле программы</expected></step>
+<step>
+<index>5</index><content>отмечаем галочкой требуемые для копирования файлы</content><expected>&quot;галочка установлена&quot; и файлы выбраны</expected></step>
+<step>
+<index>6</index><content>наводим курсор мыши и нажимаем кнопку &quot;Выбрать папку, куда писать файл&quot;</content><expected>открывается окно для выбора нужной директории</expected></step>
+<step>
+<index>7</index><content>наводим курсор мыши на кнопку &quot;Начать грузить&quot;</content><expected>все выбранные файлы успешно скопированы</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C151</id>
+				<title>Копирование файлов с одинаковым наименованием</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>запускаем программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>наводим курсор мыши и нажимаем на кнопку &quot;Добавить файл&quot;</content><expected>открывается окно для выбора файла из нужной директории</expected></step>
+<step>
+<index>2</index><content>выбираем файл 1.txt и нажимаем кнопку &quot;Ок&quot;</content><expected>файл добавлен</expected></step>
+<step>
+<index>3</index><content>наводим курсор мыши и нажимаем на кнопку &quot;Добавить файл&quot;</content><expected>открывается окно для выбора файла из нужной директории</expected></step>
+<step>
+<index>4</index><content>выбираем файл 1.txt и нажимаем кнопку &quot;Ок&quot;</content><expected>файл добавлен</expected></step>
+<step>
+<index>5</index><content>выделяем оба файла для копирования</content><expected>файлы выделены</expected></step>
+<step>
+<index>6</index><content>наводим курсор мыши и нажимаем на кнопку &quot;Выбрать папку для копирования&quot;</content><expected>открывается окно для выбора нужной директории</expected></step>
+<step>
+<index>7</index><content>наводим курсор мыши и нажимаем кнопку &quot;Начать грузить&quot;</content><expected>при копировании программа должна сообщить о том, что в одну директорию копируются схожие файлы</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C119</id>
+				<title>Копирование файла без указания директории</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>запускаем программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Наводим курсор мыши и нажимаем на кнопку &quot;добавить файл&quot;</content><expected>открывается окно для выбора файла из нужной директории</expected></step>
+<step>
+<index>2</index><content>выбираем требуемый файл и нажимаем &quot;Ок&quot;</content><expected>файл добавлен</expected></step>
+<step>
+<index>3</index><content>наводим курсор мыши и нажимаем на кнопку &quot;Начать грузить&quot; </content><expected>Без указания директории должно появиться всплывающее окно с напоминанием &quot;не выбрана директория&quot;</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C170</id>
+				<title>Копирование файла в выбранную директорию</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>запускаем программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Наводим курсор мыши и нажимаем на кнопку &quot;добавить файл&quot;</content><expected>открывается окно для выбора файла из нужной директории</expected></step>
+<step>
+<index>2</index><content>выбираем требуемый файл и нажимаем &quot;Ок&quot;</content><expected>файл добавлен</expected></step>
+<step>
+<index>3</index><content>наводим курсор мыши и нажимаем кнопку &quot;Выбрать папку, куда писать файл&quot; и нажимаем &quot;Ок&quot;</content><expected>выбираем требуемую директорию</expected></step>
+<step>
+<index>4</index><content>наводим курсор мыши и нажимаем на кнопку &quot;Начать грузить&quot;</content><expected>файл успешно скопирован в требуемую директорию</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C155</id>
+				<title>Приостановление копирования файлов</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>запускаем программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Наводим курсор мыши и нажимаем на кнопку &quot;Добавить файл&quot;</content><expected>открывается окно для выбора файла из нужной директории</expected></step>
+<step>
+<index>2</index><content>выбираем требуемый файл и жмем кнопку &quot;ок&quot;</content><expected>файл появляется в файловом поле</expected></step>
+<step>
+<index>3</index><content>наводим курсор мыши и нажимаем кнопку &quot;Выбрать папку, куда писать файл&quot;</content><expected>открывается окно для выбора нужной директории</expected></step>
+<step>
+<index>4</index><content>наводим курсор мыши и нажимаем на кнопку &quot;Начать грузить&quot;</content><expected>1.Начинается копирование файла;
+2.Кнопка &quot;Приостановить выгрузку&quot; должна стать активной, появиться таймер или индикатор времени копирования</expected></step>
+<step>
+<index>5</index><content>наводим курсор мыши и нажимаем на кнопку &quot;Приостановить выгрузку&quot;</content><expected>Копирование файлов в заданную директорию приостанавливается</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C172</id>
+				<title>Удаление файла</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>запускаем программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Наводим курсор мыши на кнопку и нажимаем &quot;добавить файл&quot;</content><expected>открывается окно для выбора файла из нужной директории</expected></step>
+<step>
+<index>2</index><content>выбираем требуемый файл и жмем кнопку &quot;ОК&quot;</content><expected>файл добавлен</expected></step>
+<step>
+<index>3</index><content>выделяем строку файла необходимого удалить</content><expected>файл выделен</expected></step>
+<step>
+<index>4</index><content>Наводим курсор мыши на кнопку и нажимаем &quot;Удалить файл&quot;</content><expected>Появляется окно с сообщением &quot;Действительно хотите удалить файл?&quot;</expected></step>
+<step>
+<index>5</index><content>выбираем в окне &quot;да&quot;</content><expected>файл удален</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C134</id>
+				<title>Нажатие кнопки &quot;Удалить файл&quot; без выбора файлов</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>запускаем программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Наводим курсор мыши на кнопку и нажимаем &quot;Удалить файл&quot;</content><expected>Кнопка должна быть неактивна.
+Ничего не должно произойти.</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C171</id>
+				<title>Появление окна подтверждающего удаление файла</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>запускаем программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Наводим курсор мыши на кнопку и нажимаем &quot;добавить файл&quot;
+
+
+</content><expected>открывается окно для выбора файла из нужной директории</expected></step>
+<step>
+<index>2</index><content>выбираем требуемый файл и жмем кнопку &quot;ОК&quot;</content><expected>файл добавлен</expected></step>
+<step>
+<index>3</index><content>выделяем строку файла необходимого удалить</content><expected>файл выделен</expected></step>
+<step>
+<index>4</index><content>Наводим курсор мыши на кнопку и нажимаем &quot;Удалить файл&quot;</content><expected>Появляется окно с сообщением &quot;Действительно хотите удалить файл?&quot;</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C173</id>
+				<title>Отмена удаления файла</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>запускаем программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Наводим курсор мыши на кнопку и нажимаем &quot;добавить файл&quot;</content><expected>открывается окно для выбора файла из нужной директории</expected></step>
+<step>
+<index>2</index><content>выбираем требуемый файл и жмем кнопку &quot;ОК&quot;</content><expected>файл добавлен</expected></step>
+<step>
+<index>3</index><content>выделяем строку файла необходимого удалить</content><expected>файл выделен</expected></step>
+<step>
+<index>4</index><content>Наводим курсор мыши на кнопку и нажимаем &quot;Удалить файл&quot;</content><expected>Появляется окно с сообщением &quot;Действительно хотите удалить файл?&quot;</expected></step>
+<step>
+<index>5</index><content>выбираем в окне &quot;нет&quot;</content><expected>файл остается в списке</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C157</id>
+				<title>Изменение размеров окна приложения</title>
+												<template>Test Case (Steps)</template>
+																<type>Usability</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>запускаем программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Потянув мышкой за края окна программы изменяется размер окна</content><expected>размеры окна должен как увеличиваться, так и уменьшаться</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C160</id>
+				<title>Сворачивание приложения через кнопку Minimize</title>
+												<template>Test Case (Steps)</template>
+																<type>Usability</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>запускаем приложение</preconds>
+										<steps_separated><step>
+<index>1</index><content>наводим курсор мыши в правый верхний угол приложения и нажимаем кнопку &quot;Свернуть&quot;</content><expected>приложение сворачивается</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C139</id>
+				<title>Закрытие приложения через кнопку Close</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>запускаем программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>наводим курсор мыши в правый верхний угол приложения и нажимаем кнопку &quot;Close&quot; </content><expected>приложение закрывается</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Добавление файлов по наименованию</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C161</id>
+				<title>Файл в 1 букву</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>запускаем программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>наводим курсор мыши и нажимаем на кнопку &quot;Добавить файл&quot;</content><expected>открывается окно для выбора файла из нужной директории</expected></step>
+<step>
+<index>2</index><content>выбираем любой файл с наименованием в 1 букву и нажимаем &quot;ок&quot;</content><expected>файл добавлен в файловое поле программы</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C162</id>
+				<title>Файл в 256 букв</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>запускаем программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>наводим курсор мыши и нажимаем на кнопку &quot;Добавить файл&quot; - </content><expected>открывается окно для выбора файла из нужной директории</expected></step>
+<step>
+<index>2</index><content>выбираем любой файл с наименованием в 256 букв и нажимаем &quot;ОК&quot;</content><expected>файл добавлен в файловое поле программы</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C163</id>
+				<title>Файл на английском + символы + цифры</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>запускаем программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>наводим курсор мыши и нажимаем на кнопку &quot;Добавить файл&quot;</content><expected>открывается окно для выбора файла из нужной директории</expected></step>
+<step>
+<index>2</index><content>выбираем любой файл на английском, содержащим цифры и символы
+и нажимаем &quot;Ок&quot;</content><expected>файл добавлен в файловое поле программы</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C164</id>
+				<title>Файл на английском + русском языках</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>запускаем программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>наводим курсор мыши и нажимаем на кнопку &quot;Добавить файл&quot;</content><expected>открывается окно для выбора файла из нужной директории</expected></step>
+<step>
+<index>2</index><content>выбираем любой файл с наименованием, содержащим русские и английские буквы</content><expected>файл добавлен в файловое поле программы</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C165</id>
+				<title>Файл на английском + русском языках + символы + цифры</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>запускаем программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>наводим курсор мыши и нажимаем на кнопку &quot;Добавить файл&quot;</content><expected>открывается окно для выбора файла из нужной директории</expected></step>
+<step>
+<index>2</index><content>выбираем любой файл с наименованием, содержащим русские и английские буквы, цифры и символы</content><expected>файл добавлен в файловое поле программы</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C147</id>
+				<title>Добавление файлов с одинаковым наименованием и одинаковым форматом</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запускаем программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>наводим курсор мыши и нажимаем на кнопку &quot;Добавить файл&quot;</content><expected>открывается окно для выбора файла из нужной директории</expected></step>
+<step>
+<index>2</index><content>выбираем файл 1.txt и нажимаем &quot;ОК&quot;</content><expected>файл добавлен в файловое поле программы</expected></step>
+<step>
+<index>3</index><content>наводим курсор мыши и нажимаем на кнопку &quot;Добавить файл&quot;</content><expected>открывается окно для выбора файла из нужной директории</expected></step>
+<step>
+<index>4</index><content>выбираем файл 1.txt и нажимаем &quot;ОК&quot;</content><expected>приложение должно предупредить о том, что ранее файл с таким же наименованием уже был добавлен в файловое поле</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Добавление файлов разного размера</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C166</id>
+				<title>Добавление файла 0 кб</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>запускаем программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>наводим курсор мыши на кнопку &quot;Добавить файл&quot;
+</content><expected>открывается окно для выбора файла из нужной директории</expected></step>
+<step>
+<index>2</index><content>выбираем файл размером 0 кб </content><expected>файл добавляется </expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C167</id>
+				<title>Добавление файла 1 кб</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>запускаем программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>наводим курсор мыши на кнопку &quot;Добавить файл&quot;</content><expected>открывается окно для выбора файла из нужной директории</expected></step>
+<step>
+<index>2</index><content>выбираем файл размером 1кб и нажимаем &quot;ОК&quot;</content><expected>файл добавлен</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C168</id>
+				<title>Добавление файла 100 мб</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>запускаем программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>наводим курсор мыши и нажимаем на кнопку &quot;Добавить файл&quot;</content><expected>открывается окно для выбора файла из нужной директории</expected></step>
+<step>
+<index>2</index><content>выбираем файл размером 100 мб и нажимаем &quot;ОК&quot;</content><expected>файл добавлен</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C169</id>
+				<title>Добавление файла 1 гб</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>запускаем программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>наводим курсор мыши и нажимаем на кнопку &quot;Добавить файл&quot;</content><expected>открывается окно для выбора файла из нужной директории</expected></step>
+<step>
+<index>2</index><content>выбираем файл размером 1гб и нажимаем &quot;ОК&quot;</content><expected>файл добавлен</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Peshkov_Hardload</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Пользовательский интерфейс</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C4</id>
+				<title>Дизайн кнопок</title>
+												<template>Test Case (Text)</template>
+																<type>Usability</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>запустить программу</preconds>
+										<steps>Визуально оценить размер, дизайн, стилистику кнопок</steps>
+										<expected>Все кнопки одинакового размера, в одной стилистике и одного дизайна</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C14</id>
+				<title>Контекстные подсказки кнопок</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Навести мышь на кнопку &quot;Найти и добавить файл в список&quot;</content><expected>Появляется контекстная подсказка &quot;Найти и добавить файл в список&quot;</expected></step>
+<step>
+<index>2</index><content>Навести мышь на кнопку &quot;Удалить выделенные файлы из списка&quot;</content><expected>Появляется контекстная подсказка &quot;Удалить выделенные файлы из списка&quot;</expected></step>
+<step>
+<index>3</index><content>Навести мышь на кнопку &quot;Начать грузить&quot;</content><expected>Появляется контекстная подсказка &quot;Начать грузить&quot;</expected></step>
+<step>
+<index>4</index><content>Навести мышь на поле &quot;Список файлов&quot;</content><expected>Появляется контекстная подсказка &quot;Список файлов&quot;</expected></step>
+<step>
+<index>5</index><content>Навести мышь на поле &quot;Папки куда писать файлы&quot;</content><expected>Появляется контекстная подсказка &quot;Папки куда писать файлы&quot;</expected></step>
+<step>
+<index>6</index><content>Навести мышь на кнопку &quot;Выбора папки куда писать файлы&quot;</content><expected>Появляется контекстная подсказка &quot;Выбрать папку куда писать файлы&quot;</expected></step>
+<step>
+<index>7</index><content>Навести мышь на поле Контекстных подсказок</content><expected>Появляется контекстная подсказка &quot;Поле контекстных подсказок&quot;</expected></step>
+<step>
+<index>8</index><content>Навести мышь на кнопку &quot;Приостановить загрузку&quot;</content><expected>Появляется контекстная подсказка &quot;Приостановить загрузку&quot;</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C20</id>
+				<title>Дизайн кнопок 2</title>
+												<template>Test Case (Steps)</template>
+																<type>Usability</type>
+																<priority>Medium</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Измерить размеры первой кнопки &quot;Добавление файла&quot; с помощью линейки, скриншота и Paint
+</content><expected>35*27pt</expected></step>
+<step>
+<index>2</index><content>Сопоставить размеры кнопок с эталонным</content><expected>Размер всех кнопок одинаков и равен 35*27pt</expected></step>
+<step>
+<index>3</index><content>Сравнить иконки изображений на кнопках с библиотекой (взятой из спецификации)</content><expected>изображения совпадают с библиотекой</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Функциональное тестирование</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Позитивное функциональное</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Файлы разных размеров</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C67</id>
+				<title>Копирование файла большого размера</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу
+Подготовить папку с файлом &quot;samplefile&quot; (без кавычек) и размером 10Гб
+
+</preconds>
+										<steps_separated><step>
+<index>1</index><content>Кликнуть на кнопке &quot;Выбор и добавления файла в список&quot;</content><expected>Открывается окно выбора файлов и папок</expected></step>
+<step>
+<index>2</index><content>В открывшемся окне выбрать папку с расположением подготовленного файла размером 10 Гбайт. Выбрать его. Нажать клавишу &quot;Открыть&quot;</content><expected>Файл появляетя в поле &quot;Список файлов&quot;</expected></step>
+<step>
+<index>3</index><content>Поставить галку в чекбоксе у имени файла в поле &quot;Выбор файлов&quot;</content><expected>В поле чекбокса появляется галка выбора файла</expected></step>
+<step>
+<index>4</index><content>С помощью клавиши &quot;Выбор папки, куда писать файлы&quot;, выбрать папку назначения</content><expected>В поле &quot;Папка, куда писать файлы&quot; появляется выбранная папка</expected></step>
+<step>
+<index>5</index><content>Нажать на клавишу &quot;Начать грузить&quot;</content><expected>Происходит загрузка файла</expected></step>
+<step>
+<index>6</index><content>Проверить, скопировался ли нужный выбранный файл в папку назначения</content><expected>Выбранный файл скопирован в папку назначения</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C68</id>
+				<title>Копирование файла минимального валидного размера</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу
+Подготовить папку с файлом &quot;samplefile&quot; (без кавычек) и размером в 1 Кбайт</preconds>
+										<steps_separated><step>
+<index>1</index><content>Кликнуть на кнопке &quot;Выбор и добавления файла в список&quot;</content><expected>Открывается окно выбора файлов и папок</expected></step>
+<step>
+<index>2</index><content>В открывшемся окне выбрать папку с расположением подготовленного файла размером 1 Кбайт. Выбрать его. Нажать клавишу &quot;Открыть&quot;</content><expected>Файл появляется в поле &quot;Список файлов&quot;</expected></step>
+<step>
+<index>3</index><content>Поставить галку в чекбоксе у имени файла в поле &quot;Выбор файлов&quot;</content><expected>В поле чекбокса появляется галка выбора файла</expected></step>
+<step>
+<index>4</index><content>С помощью клавиши &quot;Выбор папки, куда писать файлы&quot;, выбрать папку назначения</content><expected>В поле &quot;Папка, куда писать файлы&quot; появляется выбранная папка</expected></step>
+<step>
+<index>5</index><content>Нажать на клавишу &quot;Начать грузить&quot;</content><expected>Происходит загрузка файла</expected></step>
+<step>
+<index>6</index><content>Проверить, скопировался ли нужный выбранный файл в папку назначения</content><expected>Выбранный файл скопирован в папку назначения</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C129</id>
+				<title>Копирование файла среднего размера</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу
+Подготовить папку с файлом &quot;samplefile&quot; (без кавычек) и размером 100Mб
+</preconds>
+										<steps_separated><step>
+<index>1</index><content>Кликнуть на кнопке &quot;Выбор и добавления файла в список&quot;</content><expected>Открывается окно выбора файлов и папок</expected></step>
+<step>
+<index>2</index><content>В открывшемся окне выбрать папку с расположением подготовленного файла размером 100 Мбайт. Выбрать его. Нажать клавишу &quot;Открыть&quot;</content><expected>Файл появляется в поле &quot;Список файлов&quot;</expected></step>
+<step>
+<index>3</index><content>Поставить галку в чекбоксе у имени файла в поле &quot;Выбор файлов&quot;</content><expected>В поле чекбокса появляется галка выбора файла</expected></step>
+<step>
+<index>4</index><content>С помощью клавиши &quot;Выбор папки, куда писать файлы&quot;, выбрать папку назначения</content><expected>В поле &quot;Папка, куда писать файлы&quot; появляется выбранная папка</expected></step>
+<step>
+<index>5</index><content>Нажать на клавишу &quot;Начать грузить&quot;</content><expected>	
+Происходит загрузка файла</expected></step>
+<step>
+<index>6</index><content>Проверить, скопировался ли нужный выбранный файл в папку назначения</content><expected>	
+Выбранный файл скопирован в папку назначения</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Файлы часто встречающихся типов</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C63</id>
+				<title>Копирование аудиофайла в формате mp3</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу
+Подготовить папку с файлом samplefile.mp3 ненулевого размера </preconds>
+										<steps_separated><step>
+<index>1</index><content>Кликнуть на кнопке &quot;Выбор и добавления файла в список&quot;</content><expected>Открывается окно выбора файлов и папок</expected></step>
+<step>
+<index>2</index><content>В открывшемся окне выбрать папку с расположением подготовленного файла в формате mp3. Выбрать его. Нажать клавишу &quot;Открыть&quot;</content><expected>Файл появляется в поле &quot;Список файлов&quot;</expected></step>
+<step>
+<index>3</index><content>Поставить галку в чекбоксе у имени файла в поле &quot;Выбор файлов&quot;</content><expected>В поле чекбокса появляется галка выбора файла</expected></step>
+<step>
+<index>4</index><content>С помощью клавиши &quot;Выбор папки, куда писать файлы&quot;, выбрать папку назначения</content><expected>В поле &quot;Папка, куда писать файлы&quot; появляется выбранная папка</expected></step>
+<step>
+<index>5</index><content>Нажать на клавишу &quot;Начать грузить&quot;</content><expected>Происходит загрузка файла</expected></step>
+<step>
+<index>6</index><content>Проверить, скопировался ли нужный выбранный файл в папку назначения</content><expected>Выбранный файл скопирован в папку назначения</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C64</id>
+				<title>Копирование видеофайла в формате mp4</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу
+Подготовить папку с файлом samplefile.mp4 ненулевого размера</preconds>
+										<steps_separated><step>
+<index>1</index><content>Кликнуть на кнопке &quot;Выбор и добавления файла в список&quot;</content><expected>Открывается окно выбора файлов и папок</expected></step>
+<step>
+<index>2</index><content>В открывшемся окне выбрать папку с расположением подготовленного файла в формате mp4. Выбрать его. Нажать клавишу &quot;Открыть&quot;</content><expected>Файл появляется в поле &quot;Список файлов&quot;</expected></step>
+<step>
+<index>3</index><content>Поставить галку в чекбоксе у имени файла в поле &quot;Выбор файлов&quot;</content><expected>В поле чекбокса появляется галка выбора файла</expected></step>
+<step>
+<index>4</index><content>С помощью клавиши &quot;Выбор папки, куда писать файлы&quot;, выбрать папку назначения</content><expected>В поле &quot;Папка, куда писать файлы&quot; появляется выбранная папка</expected></step>
+<step>
+<index>5</index><content>Нажать на клавишу &quot;Начать грузить&quot;</content><expected>Происходит загрузка файла</expected></step>
+<step>
+<index>6</index><content>Проверить, скопировался ли нужный выбранный файл в папку назначения</content><expected>Выбранный файл скопирован в папку назначения
+
+</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C65</id>
+				<title>Копирование текстового файла в формате txt</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу
+Подготовить папку с файлом samplefile.txt ненулевого размера</preconds>
+										<steps_separated><step>
+<index>1</index><content>Кликнуть на кнопке &quot;Выбор и добавления файла в список&quot;</content><expected>Открывается окно выбора файлов и папок</expected></step>
+<step>
+<index>2</index><content>В открывшемся окне выбрать папку с расположением подготовленного файла в формате txt. Выбрать его. Нажать клавишу &quot;Открыть&quot;</content><expected>Файл появляется в поле &quot;Список файлов&quot;</expected></step>
+<step>
+<index>3</index><content>Поставить галку в чекбоксе у имени файла в поле &quot;Выбор файлов&quot;</content><expected>В поле чекбокса появляется галка выбора файла</expected></step>
+<step>
+<index>4</index><content>С помощью клавиши &quot;Выбор папки, куда писать файлы&quot;, выбрать папку назначения</content><expected>В поле &quot;Папка, куда писать файлы&quot; появляется выбранная папка</expected></step>
+<step>
+<index>5</index><content>Нажать на клавишу &quot;Начать грузить&quot;</content><expected>Происходит загрузка файла</expected></step>
+<step>
+<index>6</index><content>Проверить, скопировался ли нужный выбранный файл в папку назначения</content><expected>Выбранный файл скопирован в папку назначения</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C66</id>
+				<title>Копирование файла в формате html</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу
+Подготовить папку с файлом samplefile.html ненулевого размера</preconds>
+										<steps_separated><step>
+<index>1</index><content>Кликнуть на кнопке &quot;Выбор и добавления файла в список&quot;</content><expected>Открывается окно выбора файлов и папок</expected></step>
+<step>
+<index>2</index><content>В открывшемся окне выбрать папку с расположением подготовленного файла в формате html. Выбрать его. Нажать клавишу &quot;Открыть&quot;</content><expected>Файл появляется в поле &quot;Список файлов&quot;</expected></step>
+<step>
+<index>3</index><content>Поставить галку в чекбоксе у имени файла в поле &quot;Выбор файлов&quot;</content><expected>В поле чекбокса появляется галка выбора файла</expected></step>
+<step>
+<index>4</index><content>С помощью клавиши &quot;Выбор папки, куда писать файлы&quot;, выбрать папку назначения</content><expected>В поле &quot;Папка, куда писать файлы&quot; появляется выбранная папка</expected></step>
+<step>
+<index>5</index><content>Нажать на клавишу &quot;Начать грузить&quot;</content><expected>Происходит загрузка файла</expected></step>
+<step>
+<index>6</index><content>Проверить, скопировался ли нужный выбранный файл в папку назначения</content><expected>Выбранный файл скопирован в папку назначения</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Копирование файлов с разными названиями</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C70</id>
+				<title>Название файла длинной в 1 символ</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу
+Подготовить папку с файлом с названием &quot;A&quot; (без кавычек), ненулевого размера</preconds>
+										<steps_separated><step>
+<index>1</index><content>Кликнуть на кнопке &quot;Выбор и добавления файла в список&quot;</content><expected>Открывается окно выбора файлов и папок</expected></step>
+<step>
+<index>2</index><content>В открывшемся окне выбрать папку с расположением подготовленного файла с названием &quot;A&quot;(без кавычек). Выбрать его. Нажать клавишу &quot;Открыть&quot;</content><expected>Файл появляется в поле &quot;Список файлов&quot;</expected></step>
+<step>
+<index>3</index><content>Поставить галку в чекбоксе у имени файла в поле &quot;Выбор файлов&quot;</content><expected>В поле чекбокса появляется галка выбора файла</expected></step>
+<step>
+<index>4</index><content>С помощью клавиши &quot;Выбор папки, куда писать файлы&quot;, выбрать папку назначения</content><expected>В поле &quot;Папка, куда писать файлы&quot; появляется выбранная папка</expected></step>
+<step>
+<index>5</index><content>Нажать на клавишу &quot;Начать грузить&quot;</content><expected>	
+Происходит загрузка файла</expected></step>
+<step>
+<index>6</index><content>Проверить, скопировался ли нужный выбранный файл в папку назначения</content><expected>Выбранный файл скопирован в папку назначения</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C73</id>
+				<title>Латинские символы в названии файла</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу
+Подготовить папку с файлом с названием &quot;samplefile&quot; (без кавычек), ненулевого размера</preconds>
+										<steps_separated><step>
+<index>1</index><content>Кликнуть на кнопке &quot;Выбор и добавления файла в список&quot;</content><expected>Открвается окно выбора файлов и папок</expected></step>
+<step>
+<index>2</index><content>В открывшемся окне выбрать папку с расположением подготовленного файла с названием &quot;samplefile&quot;. Выбрать его. Нажать клавишу &quot;Открыть&quot;</content><expected>Файл появляется в поле &quot;Список файлов&quot;</expected></step>
+<step>
+<index>3</index><content>Поставить галку в чекбоксе у имени файла в поле &quot;Выбор файлов&quot;</content><expected>В поле чекбокса появляется галка выбора файла</expected></step>
+<step>
+<index>4</index><content>С помощью клавиши &quot;Выбор папки, куда писать файлы&quot;, выбрать папку назначения</content><expected>В поле &quot;Папка, куда писать файлы&quot; появляется выбранная папка</expected></step>
+<step>
+<index>5</index><content>Нажать на клавишу &quot;Начать грузить&quot;</content><expected>Происходит загрузка файла</expected></step>
+<step>
+<index>6</index><content>Проверить, скопировался ли нужный выбранный файл в папку назначения</content><expected>Выбранный файл скопирован в папку назначения</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C77</id>
+				<title>Кириллические символы в названии файла</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу
+Подготовить папку с файлом с названием &quot;тестфайл&quot; (без кавычек), ненулевого размера
+
+</preconds>
+										<steps_separated><step>
+<index>1</index><content>Кликнуть на кнопке &quot;Выбор и добавления файла в список&quot;</content><expected>Открывается окно выбора файлов и папок</expected></step>
+<step>
+<index>2</index><content>В открывшемся окне выбрать папку с расположением подготовленного файла с названием &quot;тестфайл&quot; (без кавычек). Выбрать его. Нажать клавишу &quot;Открыть&quot;</content><expected>Файл появляется в поле &quot;Список файлов&quot;</expected></step>
+<step>
+<index>3</index><content>Поставить галку в чекбоксе у имени файла в поле &quot;Выбор файлов&quot;</content><expected>В поле чекбокса появляется галка выбора файла</expected></step>
+<step>
+<index>4</index><content>С помощью клавиши &quot;Выбор папки, куда писать файлы&quot;, выбрать папку назначения</content><expected>В поле &quot;Папка, куда писать файлы&quot; появляется выбранная папка</expected></step>
+<step>
+<index>5</index><content>Нажать на клавишу &quot;Начать грузить&quot;</content><expected>Происходит загрузка файла</expected></step>
+<step>
+<index>6</index><content>Проверить, скопировался ли нужный выбранный файл в папку назначения</content><expected>Выбранный файл скопирован в папку назначения</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C78</id>
+				<title>Цифровые символы в названии файла</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу
+Подготовить папку с файлом с названием &quot;12345&quot; (без кавычек), ненулевого размера
+
+</preconds>
+										<steps_separated><step>
+<index>1</index><content>Кликнуть на кнопке &quot;Выбор и добавления файла в список&quot;</content><expected>Открывается окно выбора файлов и папок</expected></step>
+<step>
+<index>2</index><content>В открывшемся окне выбрать папку с расположением подготовленного файла с названием &quot;12345&quot; (без кавычек). Выбрать его. Нажать клавишу &quot;Открыть&quot;</content><expected>Файл появляется в поле &quot;Список файлов&quot;</expected></step>
+<step>
+<index>3</index><content>Поставить галку в чекбоксе у имени файла в поле &quot;Выбор файлов&quot;</content><expected>В поле чекбокса появляется галка выбора файла</expected></step>
+<step>
+<index>4</index><content>С помощью клавиши &quot;Выбор папки, куда писать файлы&quot;, выбрать папку назначения</content><expected>В поле &quot;Папка, куда писать файлы&quot; появляется выбранная папка</expected></step>
+<step>
+<index>5</index><content>Нажать на клавишу &quot;Начать грузить&quot;</content><expected>Происходит загрузка файла</expected></step>
+<step>
+<index>6</index><content>Проверить, скопировался ли нужный выбранный файл в папку назначения</content><expected>Выбранный файл скопирован в папку назначения</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C79</id>
+				<title>Не буквенные и не цифровые символы в названии файла</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу
+Подготовить папку с файлом с названием &quot;#&amp;!()&quot; (без кавычек), ненулевого размера</preconds>
+										<steps_separated><step>
+<index>1</index><content>Кликнуть на кнопке &quot;Выбор и добавления файла в список&quot;</content><expected>Открывается окно выбора файлов и папок</expected></step>
+<step>
+<index>2</index><content>В открывшемся окне выбрать папку с расположением подготовленного файла с названием &quot;#&amp;!()&quot; (без кавычек). Выбрать его. Нажать клавишу &quot;Открыть&quot;</content><expected>Файл появляется в поле &quot;Список файлов&quot;</expected></step>
+<step>
+<index>3</index><content>Поставить галку в чекбоксе у имени файла в поле &quot;Выбор файлов&quot;</content><expected>В поле чекбокса появляется галка выбора файла</expected></step>
+<step>
+<index>4</index><content>С помощью клавиши &quot;Выбор папки, куда писать файлы&quot;, выбрать папку назначения</content><expected>В поле &quot;Папка, куда писать файлы&quot; появляется выбранная папка</expected></step>
+<step>
+<index>5</index><content>Нажать на клавишу &quot;Начать грузить&quot;</content><expected>Происходит загрузка файла</expected></step>
+<step>
+<index>6</index><content>Проверить, скопировался ли нужный выбранный файл в папку назначения</content><expected>Выбранный файл скопирован в папку назначения</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>Негативное функциональное</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Невалидные характеристики</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C57</id>
+				<title>Файл нулевого размера</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу
+Подготовить папку с файлом с названием &quot;samplefile&quot; (без кавычек), нулевого размера</preconds>
+										<steps_separated><step>
+<index>1</index><content>Кликнуть на кнопке &quot;Выбор и добавления файла в список&quot;</content><expected>Открывается окно выбора файлов и папок</expected></step>
+<step>
+<index>2</index><content>В открывшемся окне выбрать папку с расположением подготовленного файла с названием &quot;samplefile&quot;. Выбрать его. Нажать клавишу &quot;Открыть&quot;</content><expected>Файл появляется в поле &quot;Список файлов&quot;</expected></step>
+<step>
+<index>3</index><content>Поставить галку в чекбоксе у имени файла в поле &quot;Выбор файлов&quot;</content><expected>В поле чекбокса появляется галка выбора файла</expected></step>
+<step>
+<index>4</index><content>С помощью клавиши &quot;Выбор папки, куда писать файлы&quot;, выбрать папку назначения</content><expected>В поле &quot;Папка, куда писать файлы&quot; появляется выбранная папка</expected></step>
+<step>
+<index>5</index><content>Нажать на клавишу &quot;Начать грузить&quot;</content><expected>Происходит загрузка файла</expected></step>
+<step>
+<index>6</index><content>Проверить, скопировался ли нужный выбранный файл в папку назначения</content><expected>Выбранный файл скопирован в папку назначения</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C58</id>
+				<title>Копирование без выбора исходного файла</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Кликнуть на кнопке &quot;Выбор и добавления файла в список&quot;</content><expected>Открывается окно выбора файлов и папок</expected></step>
+<step>
+<index>2</index><content>В открывшемся окне не производить выбор файла</content><expected>Файл не выбран</expected></step>
+<step>
+<index>3</index><content>С помощью клавиши &quot;Выбор папки, куда писать файлы&quot;, выбрать папку назначения</content><expected>В поле &quot;Папка, куда писать файлы&quot; появляется выбранная папка</expected></step>
+<step>
+<index>4</index><content>Нажать на клавишу &quot;Начать грузить&quot;</content><expected>Загрузка не происходит. Программа продолжает работать в обычном режиме</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C59</id>
+				<title>Копирование без выбора папки назначения</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу
+Подготовить папку с файлом с названием &quot;samplefile&quot; (без кавычек), ненулевого размера</preconds>
+										<steps_separated><step>
+<index>1</index><content>Кликнуть на кнопке &quot;Выбор и добавления файла в список&quot;</content><expected>Открывается окно выбора файлов и папок</expected></step>
+<step>
+<index>2</index><content>В открывшемся окне выбрать папку с расположением подготовленного файла с названием &quot;samplefile&quot;. Выбрать его. Нажать клавишу &quot;Открыть&quot;</content><expected>Файл появляется в поле &quot;Список файлов&quot;</expected></step>
+<step>
+<index>3</index><content>Поставить галку в чекбоксе у имени файла в поле &quot;Выбор файлов&quot;</content><expected>В поле чекбокса появляется галка выбора файла</expected></step>
+<step>
+<index>4</index><content>Не производить выбор папки назначения. </content><expected>Поле &quot;Папка, куда писать файлы&quot; остаётся пустым</expected></step>
+<step>
+<index>5</index><content>Нажать на клавишу &quot;Начать грузить&quot;</content><expected>Не происходит загрузка файла. программа продолжает работать в обычном режиме</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C60</id>
+				<title>Копирование файла в ту же папку, в которой он находится</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу
+Подготовить папку с файлом с названием &quot;samplefile&quot; (без кавычек), ненулевого размера</preconds>
+										<steps_separated><step>
+<index>1</index><content>Кликнуть на кнопке &quot;Выбор и добавления файла в список&quot;</content><expected>Открывается окно выбора файлов и папок</expected></step>
+<step>
+<index>2</index><content>В открывшемся окне выбрать папку с расположением подготовленного файла с названием &quot;samplefile&quot;. Выбрать его. Нажать клавишу &quot;Открыть&quot;</content><expected>Файл появляется в поле &quot;Список файлов&quot;</expected></step>
+<step>
+<index>3</index><content>Поставить галку в чекбоксе у имени файла в поле &quot;Выбор файлов&quot;</content><expected>В поле чекбокса появляется галка выбора файла</expected></step>
+<step>
+<index>4</index><content>С помощью клавиши &quot;Выбор папки, куда писать файлы&quot;, выбрать ту же самую папку назначения, в которой уже находится файл &quot;samplefile&quot;</content><expected>В поле &quot;Папка, куда писать файлы&quot; появляется выбранная папка</expected></step>
+<step>
+<index>5</index><content>Нажать на клавишу &quot;Начать грузить&quot;</content><expected>Загрузка файла не происходит. Программа продолжает работать в обычном режиме</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Hard load Karpenko</name>
+		<description>Karpenko</description>
+										<sections>
+		<section>
+		<name>Пользовательский интерфейс</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C8</id>
+				<title>Дизайн кнопок</title>
+												<template>Test Case (Text)</template>
+																<type>Usability</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу</preconds>
+										<steps>Визуально оценить размеры кнопок</steps>
+										<expected>Все кнопки одинакового размера
+Иконки кнопок в едином стиле</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C29</id>
+				<title>Контекстные подсказки кнопок</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Навести мышь на кнопку &quot;Найти и добавить файл в список&quot;</content><expected>Появляется контекстная подсказка &quot;Найти и добавить файл в список&quot;</expected></step>
+<step>
+<index>2</index><content>Навести мышь на кнопку &quot;Удалить выделенные файлы из списка&quot;</content><expected>Появляется контекстная подсказка &quot;Удалить выделенные файлы из списка&quot;</expected></step>
+<step>
+<index>3</index><content>Навести мышь на кнопку &quot;Начать грузить&quot;</content><expected>Появляется контекстная подсказка &quot;Начать грузить&quot;</expected></step>
+<step>
+<index>4</index><content>Навести мышь на поле &quot;Список файлов&quot;</content><expected>Появляется контекстная подсказка &quot;Список файлов&quot;</expected></step>
+<step>
+<index>5</index><content>Навести мышь на поле &quot;Папки куда писать файлы&quot;</content><expected>Появляется контекстная подсказка &quot;Папки куда писать файлы&quot;</expected></step>
+<step>
+<index>6</index><content>Навести мышь на кнопку &quot;Выбора папки куда писать файлы&quot;</content><expected>Появляется контекстная подсказка &quot;Выбрать папку куда писать файлы&quot;</expected></step>
+<step>
+<index>7</index><content>Навести мышь на поле Контекстных подсказок</content><expected>Появляется контекстная подсказка &quot;Поле контекстных подсказок&quot;</expected></step>
+<step>
+<index>8</index><content>Навести мышь на кнопку &quot;Приостановить загрузку&quot;</content><expected>Появляется контекстная подсказка &quot;Приостановить загрузку&quot;</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C23</id>
+				<title>Дизайн кнопок 2</title>
+												<template>Test Case (Steps)</template>
+																<type>Usability</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Измерить размеры первой кнопки &quot;Добавление файлов&quot; с помощью скриншота и линейки Paint</content><expected>35х27 пкс</expected></step>
+<step>
+<index>2</index><content>Сопоставить размеры остальных кнопок с эталонным</content><expected>Размеры всех кнопок 35х27 пкс</expected></step>
+<step>
+<index>3</index><content>Сравнить иконки изображений на кнопках </content><expected>Изображения совпадают</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>Gudzikevich_Hardload</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Пользовательский интерфейс</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C7</id>
+				<title>Дизайн кнопок</title>
+												<template>Test Case (Text)</template>
+																<type>Usability</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>запустить программу
+</preconds>
+										<steps>визуально оценить размер кнопок
+</steps>
+										<expected>все кнопки одинакового размера, символы на кнопках в одном стиле</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C31</id>
+				<title>Контекстные подсказки кнопок</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Навести мышь на кнопку &quot;Найти и добавить файл в список&quot;</content><expected>Появляется контекстная подсказка &quot;Найти и добавить файл в список&quot;</expected></step>
+<step>
+<index>2</index><content>Навести мышь на кнопку &quot;Удалить выделенные файлы из списка&quot;</content><expected>Появляется контекстная подсказка &quot;Удалить выделенные файлы из списка&quot;</expected></step>
+<step>
+<index>3</index><content>Навести мышь на кнопку &quot;Начать грузить&quot;</content><expected>Появляется контекстная подсказка &quot;Начать грузить&quot;</expected></step>
+<step>
+<index>4</index><content>Навести мышь на поле &quot;Список файлов&quot;</content><expected>Появляется контекстная подсказка &quot;Список файлов&quot;</expected></step>
+<step>
+<index>5</index><content>Навести мышь на поле &quot;Папки куда писать файлы&quot;</content><expected>Появляется контекстная подсказка &quot;Папки куда писать файлы&quot;</expected></step>
+<step>
+<index>6</index><content>Навести мышь на кнопку &quot;Выбора папки куда писать файлы&quot;</content><expected>Появляется контекстная подсказка &quot;Выбрать папку куда писать файлы&quot;</expected></step>
+<step>
+<index>7</index><content>Навести мышь на поле Контекстных подсказок</content><expected>Появляется контекстная подсказка &quot;Поле контекстных подсказок&quot;</expected></step>
+<step>
+<index>8</index><content>Навести мышь на кнопку &quot;Приостановить загрузку&quot;</content><expected>Появляется контекстная подсказка &quot;Приостановить загрузку&quot;</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C24</id>
+				<title>Дизайн кнопок2</title>
+												<template>Test Case (Steps)</template>
+																<type>Usability</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Измерить размеры первой кнопки &quot;Добавить файлы&quot;, с помощью скриншота и линейки в Paint</content><expected>35х27 пикс</expected></step>
+<step>
+<index>2</index><content>сравнить размеры других кнопок с эталонным</content><expected>размеры всех кнопок = 35х27 пкс</expected></step>
+<step>
+<index>3</index><content>Сравнить иконки изображений с библиотекой</content><expected>изображения совпадают</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+								</cases>
+								<sections>
+		<section>
+		<name>Функциональное тестирование</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C61</id>
+				<title>Добавление файла</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу, Кликнуть на кнопку &quot;Найти и Добавить файл&quot; </preconds>
+										<steps_separated><step>
+<index>1</index><content>Выбираем файл для загрузки и нажимаем кнопку &quot;открыть&quot;</content><expected>файл добавлен в список фалов в программе</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C89</id>
+				<title>Удаление файлов</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу, нажать кнопку &quot;добавить файл&quot;, выбрать файл в всплывающем окне и нажать кнопку открыть. повторить минимум 2 раза.</preconds>
+										<steps_separated><step>
+<index>1</index><content>выделить добавленный файл в списке файлов и нажать кнопку &quot;Удалить выделенные файлы из списка&quot;</content><expected>выбранный файл удален</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C95</id>
+				<title>Объем списка добавленных файлов</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>нажать кнопку &quot;добавить файл&quot;, выбрать 1 файл нажать кнопку &quot;открыть&quot;, повторить 8 раз</content><expected>в программу добавленно 8 файлов</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C117</id>
+				<title>Количество символов файла в строке &quot;список файлов&quot;</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу, добавить файл</preconds>
+										<steps_separated><step>
+<index>1</index><content>Добавить файл с названием больше 255 символов</content><expected>Файл добавлен</expected></step>
+<step>
+<index>2</index><content>Добавить файл с названием меньше 255 символов</content><expected>файл добавлен</expected></step>
+<step>
+<index>3</index><content>Добавить файл с названием в 255 символов</content><expected>файл добавлен</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C121</id>
+				<title>Добавление нескольких файлов</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу, Кликнуть на кнопку &quot;Найти и Добавить файл&quot;</preconds>
+										<steps_separated><step>
+<index>1</index><content>Выбираем несколько файлов для загрузки и нажимаем кнопку &quot;открыть&quot;</content><expected>файлы добавлены</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C122</id>
+				<title>удаление нескольких файлов</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>запустить программу, добавить 5 файлов</preconds>
+										<steps_separated><step>
+<index>1</index><content>Выделяем 5 файлов, нажимаем кнопку &quot;удалить&quot;</content><expected>файлы удалены</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C123</id>
+				<title>добавление файлов разного объема</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Добавить файл до 1kb</content><expected>файл добавлен</expected></step>
+<step>
+<index>2</index><content>Добавить файл выше 1mb</content><expected>файл добавлен</expected></step>
+<step>
+<index>3</index><content>Добавить файл выше 100mb</content><expected>файл добавлен</expected></step>
+<step>
+<index>4</index><content>Добавить файл выше 1gb</content><expected>файл добавлен</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C124</id>
+				<title>добавление фалов разного формата</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Добавить файл формата jpg</content><expected>файл успешно добавлен</expected></step>
+<step>
+<index>2</index><content>Добавить файл формата mp3</content><expected>файл успешно добавлен</expected></step>
+<step>
+<index>3</index><content>Добавить файл формата mp4</content><expected>файл успешно добавлен</expected></step>
+<step>
+<index>4</index><content>Добавить файл формата txt</content><expected>файл успешно добавлен</expected></step>
+<step>
+<index>5</index><content>Добавить файл формата exe</content><expected>файл успешно добавлен</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C132</id>
+				<title>выбор места выгрузки файлов</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Нажать на кнопку &quot;выбрать папку куда писать файлы&quot;</content><expected>открылось окно с обзором папок</expected></step>
+<step>
+<index>2</index><content>выбираем подходящую папку и нажимаем кнопку &quot;ОК&quot;</content><expected>в окне &quot;папка, куда писать фалы&quot; отобразился путь к этой папке</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C133</id>
+				<title>Выгрузка файла</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу, добавить файл, выбрать папку для выгрузки</preconds>
+										<steps_separated><step>
+<index>1</index><content>выбираем файл, нажимаем кнопку &quot;начать грузить&quot;</content><expected>файл успешно добавлен в папку</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C135</id>
+				<title>выгрузка нескольких  файлов</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу, добавить 10 фалов, выбрать папку для выгрузки</preconds>
+										<steps_separated><step>
+<index>1</index><content>выбрать 2 файла нажать кнопку &quot;начать грузить&quot;, открыть папку записать результат.</content><expected> все выбранные файлы успешно добавлены</expected></step>
+<step>
+<index>2</index><content>выбрать 5 файла нажать кнопку &quot;начать грузить&quot;, открыть папку записать результат.</content><expected> все выбранные файлы успешно добавлены</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C144</id>
+				<title>Поле индикатора выгрузки</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу,добавить 10 файлов, выбрать папку для выгрузки файла</preconds>
+										<steps_separated><step>
+<index>1</index><content>выбрать 10 файлов, нажать на кнопку &quot;начать грузить&quot; </content><expected>начал заполняться индикатор выгрузки</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C145</id>
+				<title>Приостановление выгрузки</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу,добавить 10 файлов, выбрать папку для выгрузки файла</preconds>
+										<steps_separated><step>
+<index>1</index><content>выбрать 10 файлов нажать на кнопку &quot;начать грузить&quot;, не дожидаясь выгрузки всех файлов нажать на кнопку &quot;пауза&quot; </content><expected>загрузка приостановлена</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C149</id>
+				<title>запуск выгрузки</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запуск программы, добавить файл,выбрать папку для выгрузки.</preconds>
+										<steps_separated><step>
+<index>1</index><content>выбрать файл, нажать на кнопку &quot;начать грузить&quot;</content><expected>запустился процесс выгрузки файла</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C153</id>
+				<title>добавление файла с внешнего носителя</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу, подключить внешний носитель к компьютеру</preconds>
+										<steps_separated><step>
+<index>1</index><content>нажать на кнопку &quot;добавить файл&quot;, открыть внешний носитель, выбрать файл, нажать кнопку &quot;открыть&quot;</content><expected>файл успешно добавлен</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Hardload_NB</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Пользовательский интерфейс</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C5</id>
+				<title>Дизайн кнопок</title>
+												<template>Test Case (Text)</template>
+																<type>Usability</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу</preconds>
+										<steps>Визуально оценить размеры кнопок</steps>
+										<expected>Все кнопки одинакового размера, иконки кнопок выдержаны в едином стиле, тень падает с одной стороны.</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C17</id>
+				<title>Дизайн кнопок 2</title>
+												<template>Test Case (Steps)</template>
+																<type>Usability</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Измерить размеры первой кнопки &quot;Добавление файлов&quot;, с помощью скриншота линейки в Paint</content><expected>35*27 пикс</expected></step>
+<step>
+<index>2</index><content>Сопоставить размер остальных кнопок с эталонным</content><expected>Размер всех кнопок 35*27 пикс</expected></step>
+<step>
+<index>3</index><content>Сравнить иконки изображений на кнопках с библиотекой dtbdth.dl</content><expected>Изображения совпадают</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C32</id>
+				<title>Контекстные подсказки кнопок</title>
+												<template>Test Case (Steps)</template>
+																<type>Usability</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Навести мышь на кнопку &quot;Найти и добавить файл в список&quot;</content><expected>Появляется контекстная подсказка &quot;Найти и добавить файл в список&quot;</expected></step>
+<step>
+<index>2</index><content>Навести мышь на кнопку &quot;Удалить выделенные файлы из списка&quot;</content><expected>Появляется контекстная подсказка &quot;Удалить выделенные файлы из списка&quot;</expected></step>
+<step>
+<index>3</index><content>Навести мышь на кнопку &quot;Начать грузить&quot;</content><expected>Появляется контекстная подсказка &quot;Начать грузить&quot;</expected></step>
+<step>
+<index>4</index><content>Навести мышь на поле &quot;Список файлов&quot;</content><expected>Появляется контекстная подсказка &quot;Список файлов&quot;</expected></step>
+<step>
+<index>5</index><content>Навести мышь на поле &quot;Папки куда писать файлы&quot;</content><expected>Появляется контекстная подсказка &quot;Папки куда писать файлы&quot;</expected></step>
+<step>
+<index>6</index><content>Навести мышь на кнопку &quot;Выбора папки куда писать файлы&quot;</content><expected>Появляется контекстная подсказка &quot;Выбрать папку куда писать файлы&quot;</expected></step>
+<step>
+<index>7</index><content>Навести мышь на поле Контекстных подсказок</content><expected>Появляется контекстная подсказка &quot;Поле контекстных подсказок&quot;</expected></step>
+<step>
+<index>8</index><content>Навести мышь на кнопку &quot;Приостановить загрузку&quot;</content><expected>Появляется контекстная подсказка &quot;Приостановить загрузку&quot;</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+								</cases>
+								<sections>
+		<section>
+		<name>Функциональное тестирование</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C56</id>
+				<title>Количество символов в строке названия загруженного файла</title>
+												<template>Test Case (Steps)</template>
+																<type>Usability</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Загрузить файл с названием размером менее 232 символов на кириллице</content><expected>Успешная загрузка файла с названием размером менее 232 символов на кириллице</expected></step>
+<step>
+<index>2</index><content>Загрузить файл с названием размером равным 232 символам на кириллице</content><expected>Успешная загрузка файла с названием размером равным 232 символам на кириллице</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C74</id>
+				<title>Копирование файлов разных форматов</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запуск программы, загрузка файлов форматов mp4, mp3, pdf, txt</preconds>
+										<steps_separated><step>
+<index>1</index><content>Копирование файла формата xml</content><expected>Выбранные в списке файлы успешно копируются в указанный каталог</expected></step>
+<step>
+<index>2</index><content>Копирование файла формата mp3</content><expected>Выбранные в списке файлы успешно копируются в указанный каталог</expected></step>
+<step>
+<index>3</index><content>Копирование файла формата pdf</content><expected>Выбранные в списке файлы успешно копируются в указанный каталог</expected></step>
+<step>
+<index>4</index><content>Копирование файла формата txt</content><expected>Выбранные в списке файлы успешно копируются в указанный каталог</expected></step>
+<step>
+<index>5</index><content>Копирование файла формата exe</content><expected>Выбранные в списке файлы успешно копируются в указанный каталог</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C92</id>
+				<title>Загрузка  допустимого количества файлов</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу, произвести загрузку файлов</preconds>
+										<steps_separated><step>
+<index>1</index><content>Загрузка менее 6 файлов</content><expected>Файлы загружены успешно</expected></step>
+<step>
+<index>2</index><content>Загрузка 6 файлов</content><expected>Файлы загружены успешно</expected></step>
+<step>
+<index>3</index><content>Загрузка 7 или более файлов</content><expected>Файлы загружены успешно</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C115</id>
+				<title>Копирование файлов разного объема</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запуск программы, загрузка файлов разного объема</preconds>
+										<steps_separated><step>
+<index>1</index><content>Копирование 1 файла объемом до 1 Гб</content><expected>Выбранный файл успешно копируются в указанный каталог</expected></step>
+<step>
+<index>2</index><content>Копирование нескольких файлов объемом до 1 Гб</content><expected>Выбранные файлы успешно копируются в указанный каталог</expected></step>
+<step>
+<index>3</index><content>Копирование 1 файла объемом более 1 Гб</content><expected>Выбранный файл успешно копируются в указанный каталог</expected></step>
+<step>
+<index>4</index><content>Копирование нескольких файлов объемом более 1 Гб</content><expected>Выбранные файлы успешно копируются в указанный каталог</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C120</id>
+				<title>Работоспособность кнопок &quot;Закрыть&quot;, &quot;Свернуть&quot;, &quot;Развернуть на весь экран&quot;</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Нажать кнопку &quot;Свернуть&quot;</content><expected>Программа сворачивается на панель задач</expected></step>
+<step>
+<index>2</index><content>Нажать кнопку &quot;Развернуть на весь экран&quot;</content><expected>Программа переходит в полноэкранный режим</expected></step>
+<step>
+<index>3</index><content>Нажать кнопку &quot;Закрыть&quot;</content><expected>Программа закрывается</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C127</id>
+				<title>Удаление файлов из списка</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу, загрузить файлы в список</preconds>
+										<steps_separated><step>
+<index>1</index><content>Удаление одного файла из списка кнопкой &quot;Удаление&quot;</content><expected>Файл успешно удален</expected></step>
+<step>
+<index>2</index><content>Удаление нескольких файлов из списка кнопкой &quot;Удаление&quot; </content><expected>Файлы успешно удалены</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C136</id>
+				<title>Копирование файлов с различными названиями</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу, загрузить файлы с названиями: на кириллице, на латинице, в символах, в числах</preconds>
+										<steps_separated><step>
+<index>1</index><content>Копирование файла с названием на кириллице</content><expected>Копирование файла успешно произведено в указанный каталог</expected></step>
+<step>
+<index>2</index><content>Копирование файла с названием на латинице</content><expected>Копирование файла успешно произведено в указанный каталог</expected></step>
+<step>
+<index>3</index><content>Копирование файла с названием в символах</content><expected>Копирование файла успешно произведено в указанный каталог</expected></step>
+<step>
+<index>4</index><content>Копирование файла с названием в числах</content><expected>Копирование файла успешно произведено в указанный каталог</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C140</id>
+				<title>Копирование папки</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Low</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запуск программы</preconds>
+										<steps_separated><step>
+<index>1</index><content>Произвести загрузку папки в программу</content><expected>Программа не загружает папку в список </expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C143</id>
+				<title>Загрузка файлов с разных носителей</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Загрузить файл с ПК</content><expected>Файл успешно загружен</expected></step>
+<step>
+<index>2</index><content>Загрузить файл с флэшки</content><expected>Файл успешно загружен</expected></step>
+<step>
+<index>3</index><content>Загрузить файл из ссылки на скачивание</content><expected>Загрузка файла из ссылки на скачивание невозможно</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C146</id>
+				<title>Приостановка копирования файлов</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу, загрузить файлы</preconds>
+										<steps_separated><step>
+<index>1</index><content>Нажать кнопку &quot;Пауза&quot;</content><expected>Приостановка копирования файлов</expected></step>
+<step>
+<index>2</index><content>Повторное нажатие кнопки &quot;Пауза&quot; после приостановки </content><expected>Продолжение копирования файлов из списка в указанный каталог</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C148</id>
+				<title>Выбор загруженного файла</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запуск программы, загрузка файлов в список</preconds>
+										<steps_separated><step>
+<index>1</index><content>Выбор загруженного файла из списка</content><expected>Проставлена &quot;галочка&quot; напротив выбранного файла </expected></step>
+<step>
+<index>2</index><content>Выбор несколько загруженных файлов из списка</content><expected>Проставлена &quot;галочка&quot; напротив выбранных файлов </expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C152</id>
+				<title>Выбор места выгрузки файлов</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Нажать на кнопку &quot;Выбрать папку куда писать файлы&quot;</content><expected>Открылось окно &quot;Обзор папок&quot;</expected></step>
+<step>
+<index>2</index><content>Выбираем из перечня необходимую папку и нажимаем кнопку &quot;ОК&quot;</content><expected>Путь к папке для выгрузки файлов отображается в поле &quot;Папка, куда писать файлы&quot;</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C154</id>
+				<title>Копирование файлов на флэшку</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запуск программы, загрузка файлов</preconds>
+										<steps_separated><step>
+<index>1</index><content>Выбор файла(ов) для копирования отметкой &quot;галочка&quot; напротив нужного файла</content><expected>Файл для копирования выбран</expected></step>
+<step>
+<index>2</index><content>Нажать на кнопку &quot;Выбрать папку куда писать файлы&quot; и выбрать путь копирования на флэшку</content><expected>Путь выгрузки на флэш-носитель указан в поле &quot;Папка, куда писать файлы&quot; </expected></step>
+<step>
+<index>3</index><content>Произвести копирование при нажатии кнопки &quot;Начать грузить&quot;</content><expected>Файл скопирован на флэшку</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C156</id>
+				<title>Копирование файла, который уже существует в месте выгрузки</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate>3600</estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Запуск программы</preconds>
+										<steps_separated><step>
+<index>1</index><content>Загрузить файл, идентичный по названию и формату с файлом, уже существующем в каталоге выгрузки</content><expected>Файл успешно загружен в список на выгрузку</expected></step>
+<step>
+<index>2</index><content>Выбрать данный файл для выгрузки в указанный каталог, выбрать место выгрузки файла (где уже есть идентичный файл) и нажать кнопку &quot;Начать грузить&quot;</content><expected>Файл успешно выгружен в указанный каталог с заменой предыдущего (идентичного по названию)</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C159</id>
+				<title>Корректное наименование кнопок</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Low</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>запустить программу</preconds>
+										<steps_separated><step>
+<index>1</index><content>Навести мышь на первую кнопку слева верхней панели программы</content><expected>Появляется подсказка в поле контекстного меню &quot;Поиск и добавление файла в список&quot;</expected></step>
+<step>
+<index>2</index><content>Навести мышь на вторую кнопку слева верхней панели программы</content><expected>Появляется подсказка в поле контекстного меню &quot;Удаление выделенного файла из списка&quot;</expected></step>
+<step>
+<index>3</index><content>Навести мышь на третью кнопку слева верхней панели программы</content><expected>Появляется подсказка в поле контекстного меню &quot;Запуск копирования файлов&quot;</expected></step>
+<step>
+<index>4</index><content>Навести мышь на четвертую кнопку слева верхней панели программы</content><expected>Появляется подсказка в поле контекстного меню &quot;Приостановка копирования файлов&quot;</expected></step>
+<step>
+<index>5</index><content>Навести мышь на первую кнопку справа нижней панели программы</content><expected>Появляется подсказка в поле контекстного меню &quot;Выбор папки для копирования файлов&quot;</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+	</sections>
+</suite>
