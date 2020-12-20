@@ -2,7 +2,6 @@ import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -18,7 +17,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertTrue;
 
-public class first_test {
+public class SecondTest {
     public static WebDriver driver;
 
     @BeforeClass
@@ -38,42 +37,6 @@ public class first_test {
     }
 
     @Test
-    public void firstPayment() throws IOException {
-        WebElement cardNumber = driver.findElement(By.id("input-card-number"));
-        cardNumber.sendKeys("4000000000000002");
-        WebElement cardholderName = driver.findElement(By.id("input-card-holder"));
-        cardholderName.sendKeys("Si Von");
-        WebElement cardExperisedMonth = driver.findElement(By.id("card-expires-month"));
-        cardExperisedMonth.sendKeys("07");
-        WebElement cardExperisedYear = driver.findElement(By.id("card-expires-year"));
-        cardExperisedYear.sendKeys("2022");
-        WebElement paymentdataCardCvcPlaceholder = driver.findElement(By.id("input-card-cvc"));
-        paymentdataCardCvcPlaceholder.sendKeys("777");
-        WebElement paymentdataActionsSubmit = driver.findElement(By.id("action-submit"));
-        paymentdataActionsSubmit.click();
-        WebElement Success = driver.findElement(By.id("success"));
-        Success.submit();
-    }
-
-    @Test
-    public void thirdPayment() throws IOException {
-        WebElement cardNumber = driver.findElement(By.id("input-card-number"));
-        cardNumber.sendKeys("4000000000000002");
-        WebElement cardholderName = driver.findElement(By.id("input-card-holder"));
-        cardholderName.sendKeys("Si Von");
-        WebElement cardExperisedMonth = driver.findElement(By.id("card-expires-month"));
-        cardExperisedMonth.sendKeys("07");
-        WebElement cardExperisedYear = driver.findElement(By.id("card-expires-year"));
-        cardExperisedYear.sendKeys("2022");
-        WebElement paymentdataCardCvcPlaceholder = driver.findElement(By.id("input-card-cvc"));
-        paymentdataCardCvcPlaceholder.sendKeys("777");
-        WebElement paymentdataActionsSubmit = driver.findElement(By.id("action-submit"));
-        paymentdataActionsSubmit.click();
-        WebElement Success = driver.findElement(By.id("success"));
-        Success.submit();
-    }
-
-    @Test
     public void secondPayment() throws IOException {
         WebElement cardNumber = driver.findElement(By.id("input-card-number"));
         cardNumber.sendKeys("4000000000000002");
@@ -88,18 +51,17 @@ public class first_test {
         WebElement Question = driver.findElement(By.id("cvc-hint-toggle"));
         Question.click();
         WebElement Page = driver.findElement(By.id("main-container"));
+
         Screenshot screenshot = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(1000))
                 .coordsProvider(new WebDriverCoordsProvider())
                 .takeScreenshot(driver, Page);
-
         ImageIO.write(screenshot.getImage(), "jpg", new File("C:\\Users\\админ\\Desktop\\Homework-1\\google-logo.png"));
         assertTrue(new File("C:\\Users\\админ\\Desktop\\Homework-1\\google-logo.png").exists());
+
         WebElement paymentdataActionsSubmit = driver.findElement(By.id("action-submit"));
         paymentdataActionsSubmit.click();
         WebElement Success = driver.findElement(By.id("success"));
         Success.submit();
     }
-
-
 
 }
